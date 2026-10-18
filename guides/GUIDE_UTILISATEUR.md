@@ -1,6 +1,6 @@
 # HoroCMS — Guide de l’utilisateur
 
-*Bêta 0.2.2*
+*Bêta 0.2.3*
 
 HoroCMS est un registre privé et chiffré pour une collection de montres de prestige. Ce guide reprend l’écran Aide de l’application (menu › Aide), où un assistant peut aussi trouver la bonne section pour une question.
 
@@ -32,6 +32,7 @@ HoroCMS est un registre privé et chiffré pour une collection de montres de pre
   - [Importer plusieurs montres d’un tableur](#importer-plusieurs-montres-dun-tableur)
   - [Vérifier une montre avec WatchBase](#verifier-une-montre-avec-watchbase)
   - [Ce qui accompagne la montre : écrin, papiers et extras](#ce-qui-accompagne-la-montre-ecrin-papiers-et-extras)
+  - [Rechercher une nouvelle montre avec l’IA](#rechercher-une-nouvelle-montre-avec-lia)
 - **Valeurs et devises**
   - [Inscrire l’achat](#inscrire-lachat)
   - [Évaluations](#evaluations)
@@ -264,6 +265,14 @@ L’aperçu de chaque montre comporte une section Ce qui accompagne la montre en
 - Accessoires et extras : étiquettes (hang tags), maillons de rechange, bracelets supplémentaires, outils spécialisés, protecteurs de lunette.
 
 Les éléments dénombrables prennent une quantité (2 maillons, 3 livrets) et chaque élément accepte une courte note, comme la date de la carte de garantie ou l’état de l’écrin. L’écrin de présentation et la carte de garantie forment ensemble un ensemble complet; ils répondent aussi aux questions Écrin et Papiers de la fiche de la montre, et la fiche de vente énumère tout ce qui accompagne la montre.
+
+### Rechercher une nouvelle montre avec l’IA
+
+Quand vous ajoutez une montre, Rechercher avec l’IA, en haut du formulaire, peut l’identifier pour vous. Décrivez la montre en quelques mots (marque, modèle, référence, couleur du cadran…) ou inscrivez-les dans le formulaire, puis choisissez Rechercher. Claude, l’IA d’Anthropic, cherche sur le Web, habituellement en 20 à 60 secondes, et montre la montre trouvée, son degré de certitude, les sources lues et d’autres correspondances possibles.
+
+Choisissez Remplir le formulaire pour utiliser ce qui a été trouvé : marque, collection, modèle, référence, mouvement, calibre, diamètre, page officielle et cadran, ainsi que toutes les autres caractéristiques confirmées, enregistrées dans l’onglet Caractéristiques avec la montre. Vérifiez tout sur la montre et ses papiers avant d’enregistrer : l’IA peut se tromper; ces détails sont donc marqués Recherche IA, non vérifiée, dans Qualité des données. Si la montre n’a pas été identifiée avec certitude, choisissez l’une des autres correspondances pour la rechercher.
+
+La fonction utilise l’assistant d’aide avec votre propre clé Anthropic : activez-le dans Paramètres › Assistant d’aide. Seuls les mots saisis au sujet de cette montre sont envoyés, jamais rien d’autre de votre collection. Chaque recherche utilise jusqu’à cinq recherches Web, facturées par Anthropic à votre compte (quelques cents).
 
 ## Valeurs et devises
 

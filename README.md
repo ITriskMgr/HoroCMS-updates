@@ -2,7 +2,7 @@
 
 **HoroCMS** is a private, encrypted register for a watch collection, by Marc-André Léger ([www.leger.ca](https://www.leger.ca)). It runs on your own computer: no account, no cloud, and your collection never leaves it unless you choose to. It is free.
 
-**Current version: beta 0.2.2** · [What's new](https://github.com/ITriskMgr/HoroCMS-updates/releases/latest)
+**Current version: beta 0.2.3** · [What's new](https://github.com/ITriskMgr/HoroCMS-updates/releases/latest)
 
 ## Download
 

@@ -1,6 +1,6 @@
 # HoroCMS — User guide
 
-*Beta 0.2.2*
+*Beta 0.2.3*
 
 HoroCMS is a private, encrypted register for a fine-watch collection. This guide follows the app's own Help screen (menu › Help), where an assistant can also find the right section for a question.
 
@@ -32,6 +32,7 @@ HoroCMS is a private, encrypted register for a fine-watch collection. This guide
   - [Importing many watches from a spreadsheet](#importing-many-watches-from-a-spreadsheet)
   - [Checking a watch with WatchBase](#checking-a-watch-with-watchbase)
   - [What’s included: box, papers and extras](#whats-included-box-papers-and-extras)
+  - [Researching a new watch with AI](#researching-a-new-watch-with-ai)
 - **Values and currencies**
   - [Recording the purchase](#recording-the-purchase)
   - [Valuations](#valuations)
@@ -264,6 +265,14 @@ The Overview of each watch has a What’s included section in three groups: pack
 - Accessories and extras: hang tags, spare links, additional straps, specialized tools, bezel protectors.
 
 Countable items take a quantity (2 spare links, 3 booklets) and every item takes a short note, such as the date on a warranty card or the condition of a box. The inner presentation box and the warranty card together make a full set; they also answer Box and Papers in the watch form, and the sale sheet lists everything that comes with the watch.
+
+### Researching a new watch with AI
+
+When you add a watch, Research with AI at the top of the form can identify it for you. Describe the watch in a few words (brand, model, reference, dial colour…), or type them in the form, then choose Research. Claude, Anthropic’s AI, searches the web, usually in 20 to 60 seconds, and shows the watch it found, how sure it is, the sources it read and other possible matches.
+
+Choose Fill the form to use what was found: brand, collection, model, reference, movement, calibre, diameter, official page and dial, and every other specification it could confirm, which is saved in the Specifications tab with the watch. Check everything against the watch and its papers before saving: AI can be wrong, so these details are marked AI research, unverified, in Data quality. If the watch was not identified with confidence, choose one of the other matches to research it.
+
+It uses the Help assistant with your own Anthropic key: turn it on in Settings › Help assistant. Only the words you typed about this watch are sent, never anything else from your collection. Each research uses up to five web searches, billed by Anthropic to your account (a few cents).
 
 ## Values and currencies
 

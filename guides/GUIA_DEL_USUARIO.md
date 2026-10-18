@@ -1,6 +1,6 @@
 # HoroCMS — Guía del usuario
 
-*Beta 0.2.2*
+*Beta 0.2.3*
 
 HoroCMS es un registro privado y cifrado para una colección de relojes finos. Esta guía sigue la pantalla Ayuda de la aplicación (menú › Ayuda), donde un asistente también puede encontrar la sección adecuada para una pregunta.
 
@@ -32,6 +32,7 @@ HoroCMS es un registro privado y cifrado para una colección de relojes finos. E
   - [Importar muchos relojes de una hoja de cálculo](#importar-muchos-relojes-de-una-hoja-de-calculo)
   - [Comprobar un reloj con WatchBase](#comprobar-un-reloj-con-watchbase)
   - [Lo que incluye: caja, papeles y extras](#lo-que-incluye-caja-papeles-y-extras)
+  - [Investigar un reloj nuevo con IA](#investigar-un-reloj-nuevo-con-ia)
 - **Valores y monedas**
   - [Registrar la compra](#registrar-la-compra)
   - [Valoraciones](#valoraciones)
@@ -264,6 +265,14 @@ La vista general de cada reloj tiene una sección Lo que incluye en tres grupos:
 - Accesorios y extras: etiquetas colgantes, eslabones de repuesto, correas adicionales, herramientas especiales, protectores de bisel.
 
 Los elementos contables llevan una cantidad (2 eslabones, 3 folletos) y cada elemento admite una nota breve, como la fecha de la tarjeta de garantía o el estado de la caja. El estuche de presentación y la tarjeta de garantía forman juntos un juego completo; también responden a Caja y Papeles en la ficha del reloj, y la hoja de venta enumera todo lo que acompaña al reloj.
+
+### Investigar un reloj nuevo con IA
+
+Al añadir un reloj, Investigar con IA, en la parte superior del formulario, puede identificarlo por usted. Describa el reloj en pocas palabras (marca, modelo, referencia, color de la esfera…) o escríbalas en el formulario y elija Investigar. Claude, la IA de Anthropic, busca en la web, normalmente en 20 a 60 segundos, y muestra el reloj encontrado, su grado de seguridad, las fuentes leídas y otras coincidencias posibles.
+
+Elija Rellenar el formulario para usar lo encontrado: marca, colección, modelo, referencia, movimiento, calibre, diámetro, página oficial y esfera, y todas las demás especificaciones confirmadas, que se guardan en la pestaña Especificaciones con el reloj. Compruébelo todo con el reloj y sus papeles antes de guardar: la IA puede equivocarse, por eso estos datos quedan marcados como investigación con IA, sin verificar, en Calidad de los datos. Si el reloj no se identificó con seguridad, elija otra coincidencia para investigarla.
+
+Usa el asistente de ayuda con su propia clave de Anthropic: actívelo en Ajustes › Asistente de ayuda. Solo se envían las palabras escritas sobre este reloj, nunca nada más de su colección. Cada investigación usa hasta cinco búsquedas web, que Anthropic factura a su cuenta (unos céntimos).
 
 ## Valores y monedas
 

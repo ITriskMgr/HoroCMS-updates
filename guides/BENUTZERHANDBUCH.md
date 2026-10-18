@@ -1,6 +1,6 @@
 # HoroCMS — Benutzerhandbuch
 
-*Beta 0.2.2*
+*Beta 0.2.3*
 
 HoroCMS ist ein privates, verschlüsseltes Register für eine Sammlung hochwertiger Uhren. Dieses Handbuch folgt dem Hilfe-Bildschirm der App (Menü › Hilfe), wo ein Assistent auch den passenden Abschnitt zu einer Frage finden kann.
 
@@ -32,6 +32,7 @@ HoroCMS ist ein privates, verschlüsseltes Register für eine Sammlung hochwerti
   - [Viele Uhren aus einer Tabelle importieren](#viele-uhren-aus-einer-tabelle-importieren)
   - [Eine Uhr mit WatchBase prüfen](#eine-uhr-mit-watchbase-prufen)
   - [Lieferumfang: Box, Papiere und Extras](#lieferumfang-box-papiere-und-extras)
+  - [Eine neue Uhr mit KI recherchieren](#eine-neue-uhr-mit-ki-recherchieren)
 - **Werte und Währungen**
   - [Den Kauf erfassen](#den-kauf-erfassen)
   - [Bewertungen](#bewertungen)
@@ -264,6 +265,14 @@ Die Übersicht jeder Uhr hat einen Abschnitt Lieferumfang in drei Gruppen: Verpa
 - Zubehör und Extras: Anhänger (Hang Tags), Ersatzglieder, zusätzliche Armbänder, Spezialwerkzeug, Lünettenschutz.
 
 Zählbare Elemente erhalten eine Menge (2 Ersatzglieder, 3 Broschüren), und jedes Element eine kurze Notiz, etwa das Datum der Garantiekarte oder den Zustand der Box. Präsentationsbox und Garantiekarte bilden zusammen ein Full Set; sie beantworten auch Box und Papiere im Uhrenformular, und das Verkaufsblatt listet alles auf, was zur Uhr gehört.
+
+### Eine neue Uhr mit KI recherchieren
+
+Wenn Sie eine Uhr hinzufügen, kann Mit KI recherchieren oben im Formular sie für Sie identifizieren. Beschreiben Sie die Uhr in wenigen Worten (Marke, Modell, Referenz, Zifferblattfarbe …) oder geben Sie sie im Formular ein und wählen Sie Recherchieren. Claude, die KI von Anthropic, sucht im Web, meist in 20 bis 60 Sekunden, und zeigt die gefundene Uhr, wie sicher die Zuordnung ist, die gelesenen Quellen und weitere mögliche Treffer.
+
+Wählen Sie Formular ausfüllen, um das Gefundene zu übernehmen: Marke, Kollektion, Modell, Referenz, Werk, Kaliber, Durchmesser, offizielle Seite und Zifferblatt sowie alle weiteren bestätigten technischen Daten, die mit der Uhr im Reiter Technische Daten gespeichert werden. Prüfen Sie alles an der Uhr und ihren Papieren, bevor Sie speichern: KI kann sich irren, daher sind diese Angaben in der Datenqualität als KI-Recherche, ungeprüft, gekennzeichnet. Wurde die Uhr nicht sicher identifiziert, wählen Sie einen der anderen Treffer, um ihn zu recherchieren.
+
+Die Funktion nutzt den Hilfe-Assistenten mit Ihrem eigenen Anthropic-Schlüssel: Schalten Sie ihn unter Einstellungen › Hilfe-Assistent ein. Gesendet werden nur die Wörter, die Sie zu dieser Uhr eingeben, nie etwas anderes aus Ihrer Sammlung. Jede Recherche nutzt bis zu fünf Websuchen, die Anthropic Ihrem Konto berechnet (einige Cent).
 
 ## Werte und Währungen
 

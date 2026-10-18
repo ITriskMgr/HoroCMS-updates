@@ -1,6 +1,6 @@
 # HoroCMS — Installationsanleitung
 
-*Beta 0.2.2*
+*Beta 0.2.3*
 
 So installieren Sie HoroCMS auf einem Mac oder einem Windows-PC und die Begleit-App auf einem Telefon, richten es ein, aktualisieren es, übertragen es auf einen anderen Computer und entfernen es wieder.
 
