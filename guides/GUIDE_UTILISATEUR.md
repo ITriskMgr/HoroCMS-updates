@@ -1,6 +1,6 @@
 # HoroCMS — Guide de l’utilisateur
 
-*Bêta 0.2.4*
+*Bêta 0.2.5*
 
 HoroCMS est un registre privé et chiffré pour une collection de montres de prestige. Ce guide reprend l’écran Aide de l’application (menu › Aide), où un assistant peut aussi trouver la bonne section pour une question.
 
@@ -284,6 +284,8 @@ Choisissez Identifier avec l’IA : Claude examine chaque photo, lit le cadran 
 Chaque montre ajoutée ainsi reçoit sa photo et est marquée IA · à vérifier, dans la collection, sur la montre et dans À surveiller de la vue d’ensemble. Ouvrez-la, vérifiez ses détails et ses caractéristiques sur la montre et ses papiers, puis choisissez J’ai vérifié : marquer comme vérifiée. Le filtre Seulement les montres identifiées par l’IA à vérifier affiche celles qui restent. Les montres remplies par Rechercher avec l’IA sont marquées de la même façon.
 
 Chaque photo est envoyée à Anthropic en copie réduite, sans sa localisation ni ses autres métadonnées, avec son nom de fichier, au moyen de votre propre clé; rien d’autre de votre collection. Chacune coûte quelques cents.
+
+Recherche approfondie : sur une montre encore à vérifier, choisissez Recherche approfondie : trouver plus d’information. Claude vérifie l’identification auprès de plus de sources (jusqu’à 8 recherches Web, habituellement de 10 à 30 cents) et cherche les détails qui manquent encore. Il liste les nouveaux détails, cochés, et ceux qui diffèrent de ce qui est inscrit, non cochés; n’enregistrez que ce que vous gardez. Si les sources indiquent une autre montre, il le dit et ne change rien.
 
 ## Valeurs et devises
 

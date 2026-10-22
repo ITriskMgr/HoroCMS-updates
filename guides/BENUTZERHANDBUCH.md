@@ -1,6 +1,6 @@
 # HoroCMS — Benutzerhandbuch
 
-*Beta 0.2.4*
+*Beta 0.2.5*
 
 HoroCMS ist ein privates, verschlüsseltes Register für eine Sammlung hochwertiger Uhren. Dieses Handbuch folgt dem Hilfe-Bildschirm der App (Menü › Hilfe), wo ein Assistent auch den passenden Abschnitt zu einer Frage finden kann.
 
@@ -284,6 +284,8 @@ Wählen Sie Mit KI identifizieren: Claude sieht sich jedes Foto an, liest das Zi
 Jede so hinzugefügte Uhr erhält ihr Foto und ist als KI · zu prüfen markiert, in der Sammlung, bei der Uhr und unter Erfordert Aufmerksamkeit in der Übersicht. Öffnen Sie sie, prüfen Sie Angaben und technische Daten an der Uhr und ihren Papieren und wählen Sie Geprüft: als geprüft markieren. Der Filter Nur von KI identifizierte Uhren zum Prüfen zeigt die verbleibenden. Mit Mit KI recherchieren ausgefüllte Uhren werden ebenso markiert.
 
 Jedes Foto wird als verkleinerte Kopie ohne Standort und andere Metadaten, mit seinem Dateinamen, mit Ihrem eigenen Schlüssel an Anthropic gesendet; sonst nichts aus Ihrer Sammlung. Jedes kostet einige Cent.
+
+Tiefenrecherche: Wählen Sie bei einer noch zu prüfenden Uhr Tiefenrecherche: weitere Informationen suchen. Claude prüft die Identifikation anhand weiterer Quellen (bis zu 8 Websuchen, meist 10 bis 30 Cent) und sucht die noch fehlenden Angaben. Neue Angaben werden angekreuzt aufgelistet, vom Erfassten abweichende ohne Häkchen; speichern Sie nur, was Sie übernehmen. Deuten die Quellen auf eine andere Uhr, sagt sie es und ändert nichts.
 
 ## Werte und Währungen
 

@@ -1,6 +1,6 @@
 # HoroCMS — Guía del usuario
 
-*Beta 0.2.4*
+*Beta 0.2.5*
 
 HoroCMS es un registro privado y cifrado para una colección de relojes finos. Esta guía sigue la pantalla Ayuda de la aplicación (menú › Ayuda), donde un asistente también puede encontrar la sección adecuada para una pregunta.
 
@@ -284,6 +284,8 @@ Elija Identificar con IA: Claude examina cada foto, lee la esfera y busca en la 
 Cada reloj añadido así recibe su foto y queda marcado como IA · por verificar, en la colección, en el reloj y en Requiere atención del resumen. Ábralo, compruebe sus datos y especificaciones con el reloj y sus papeles y elija Lo he comprobado: marcar como verificado. El filtro Solo relojes identificados por IA por verificar muestra los que quedan. Los relojes rellenados con Investigar con IA se marcan igual.
 
 Cada foto se envía a Anthropic como copia reducida, sin su ubicación ni otros metadatos, con su nombre de archivo, usando su propia clave; nada más de su colección. Cada una cuesta unos céntimos.
+
+Investigación a fondo: en un reloj aún por verificar, elija Investigación a fondo: buscar más información. Claude comprueba la identificación con más fuentes (hasta 8 búsquedas web, normalmente de 10 a 30 céntimos) y busca los datos que aún faltan. Enumera los datos nuevos, marcados, y los que difieren de lo registrado, sin marcar; guarde solo lo que quiera conservar. Si las fuentes apuntan a otro reloj, lo dice y no cambia nada.
 
 ## Valores y monedas
 

@@ -1,6 +1,6 @@
 # HoroCMS — User guide
 
-*Beta 0.2.4*
+*Beta 0.2.5*
 
 HoroCMS is a private, encrypted register for a fine-watch collection. This guide follows the app's own Help screen (menu › Help), where an assistant can also find the right section for a question.
 
@@ -284,6 +284,8 @@ Choose Identify with AI: Claude looks at each photo, reads the dial and searches
 Every watch added this way gets its photo and is marked AI · to verify, in the collection, on the watch and in the overview’s Needs attention. Open it, check its details and specifications against the watch and its papers, then choose I checked: mark as verified. The filter Only AI-identified watches to verify lists the ones left. Watches filled in by Research with AI are marked the same way.
 
 Each photo is sent to Anthropic as a reduced copy without its location or other metadata, with its file name, using your own key; nothing else from your collection. Each costs a few cents.
+
+Deep dive: on a watch still to verify, choose Deep dive: look for more information. Claude checks the identification against more sources (up to 8 web searches, usually 10 to 30 cents) and looks for the details still missing. It lists the new details, ticked, and those that differ from what is recorded, not ticked; save only what you keep. If the sources point to a different watch, it says so and changes nothing.
 
 ## Values and currencies
 
