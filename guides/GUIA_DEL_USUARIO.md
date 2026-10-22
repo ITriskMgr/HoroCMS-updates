@@ -1,6 +1,6 @@
 # HoroCMS — Guía del usuario
 
-*Beta 0.2.3*
+*Beta 0.2.4*
 
 HoroCMS es un registro privado y cifrado para una colección de relojes finos. Esta guía sigue la pantalla Ayuda de la aplicación (menú › Ayuda), donde un asistente también puede encontrar la sección adecuada para una pregunta.
 
@@ -33,6 +33,7 @@ HoroCMS es un registro privado y cifrado para una colección de relojes finos. E
   - [Comprobar un reloj con WatchBase](#comprobar-un-reloj-con-watchbase)
   - [Lo que incluye: caja, papeles y extras](#lo-que-incluye-caja-papeles-y-extras)
   - [Investigar un reloj nuevo con IA](#investigar-un-reloj-nuevo-con-ia)
+  - [Añadir muchos relojes desde fotos](#anadir-muchos-relojes-desde-fotos)
 - **Valores y monedas**
   - [Registrar la compra](#registrar-la-compra)
   - [Valoraciones](#valoraciones)
@@ -273,6 +274,16 @@ Al añadir un reloj, Investigar con IA, en la parte superior del formulario, pue
 Elija Rellenar el formulario para usar lo encontrado: marca, colección, modelo, referencia, movimiento, calibre, diámetro, página oficial y esfera, y todas las demás especificaciones confirmadas, que se guardan en la pestaña Especificaciones con el reloj. Compruébelo todo con el reloj y sus papeles antes de guardar: la IA puede equivocarse, por eso estos datos quedan marcados como investigación con IA, sin verificar, en Calidad de los datos. Si el reloj no se identificó con seguridad, elija otra coincidencia para investigarla.
 
 Usa el asistente de ayuda con su propia clave de Anthropic: actívelo en Ajustes › Asistente de ayuda. Solo se envían las palabras escritas sobre este reloj, nunca nada más de su colección. Cada investigación usa hasta cinco búsquedas web, que Anthropic factura a su cuenta (unos céntimos).
+
+### Añadir muchos relojes desde fotos
+
+En Colección, elija Añadir desde fotos y luego Elegir una carpeta de fotos. Ponga una foto por reloj en la carpeta, con la esfera bien visible. HoroCMS lee fotos JPEG, PNG y WebP, y fotos HEIC de iPhone en un Mac; en Windows, exporte primero las fotos HEIC como JPEG. Hasta 200 fotos a la vez.
+
+Elija Identificar con IA: Claude examina cada foto, lee la esfera y busca en la web para confirmar la referencia. Cada fila muestra lo que encontró y su grado de seguridad. Corrija la marca, el modelo o la referencia si hace falta, desmarque las fotos que no quiera y elija Añadir. Si cambia la identificación, los datos encontrados por la IA para ese reloj no se guardan. Sin el asistente de ayuda, puede escribir cada reloj usted mismo.
+
+Cada reloj añadido así recibe su foto y queda marcado como IA · por verificar, en la colección, en el reloj y en Requiere atención del resumen. Ábralo, compruebe sus datos y especificaciones con el reloj y sus papeles y elija Lo he comprobado: marcar como verificado. El filtro Solo relojes identificados por IA por verificar muestra los que quedan. Los relojes rellenados con Investigar con IA se marcan igual.
+
+Cada foto se envía a Anthropic como copia reducida, sin su ubicación ni otros metadatos, con su nombre de archivo, usando su propia clave; nada más de su colección. Cada una cuesta unos céntimos.
 
 ## Valores y monedas
 

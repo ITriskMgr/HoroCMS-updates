@@ -1,6 +1,6 @@
 # HoroCMS — Guía de instalación
 
-*Beta 0.2.3*
+*Beta 0.2.4*
 
 Cómo instalar HoroCMS en un Mac o un PC con Windows y la aplicación complementaria en un teléfono, configurarlo, actualizarlo, trasladarlo a otro ordenador y desinstalarlo.
 

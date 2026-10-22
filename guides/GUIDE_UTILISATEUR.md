@@ -1,6 +1,6 @@
 # HoroCMS — Guide de l’utilisateur
 
-*Bêta 0.2.3*
+*Bêta 0.2.4*
 
 HoroCMS est un registre privé et chiffré pour une collection de montres de prestige. Ce guide reprend l’écran Aide de l’application (menu › Aide), où un assistant peut aussi trouver la bonne section pour une question.
 
@@ -33,6 +33,7 @@ HoroCMS est un registre privé et chiffré pour une collection de montres de pre
   - [Vérifier une montre avec WatchBase](#verifier-une-montre-avec-watchbase)
   - [Ce qui accompagne la montre : écrin, papiers et extras](#ce-qui-accompagne-la-montre-ecrin-papiers-et-extras)
   - [Rechercher une nouvelle montre avec l’IA](#rechercher-une-nouvelle-montre-avec-lia)
+  - [Ajouter plusieurs montres à partir de photos](#ajouter-plusieurs-montres-a-partir-de-photos)
 - **Valeurs et devises**
   - [Inscrire l’achat](#inscrire-lachat)
   - [Évaluations](#evaluations)
@@ -273,6 +274,16 @@ Quand vous ajoutez une montre, Rechercher avec l’IA, en haut du formulaire, pe
 Choisissez Remplir le formulaire pour utiliser ce qui a été trouvé : marque, collection, modèle, référence, mouvement, calibre, diamètre, page officielle et cadran, ainsi que toutes les autres caractéristiques confirmées, enregistrées dans l’onglet Caractéristiques avec la montre. Vérifiez tout sur la montre et ses papiers avant d’enregistrer : l’IA peut se tromper; ces détails sont donc marqués Recherche IA, non vérifiée, dans Qualité des données. Si la montre n’a pas été identifiée avec certitude, choisissez l’une des autres correspondances pour la rechercher.
 
 La fonction utilise l’assistant d’aide avec votre propre clé Anthropic : activez-le dans Paramètres › Assistant d’aide. Seuls les mots saisis au sujet de cette montre sont envoyés, jamais rien d’autre de votre collection. Chaque recherche utilise jusqu’à cinq recherches Web, facturées par Anthropic à votre compte (quelques cents).
+
+### Ajouter plusieurs montres à partir de photos
+
+Dans Collection, choisissez Ajouter à partir de photos, puis Choisir un dossier de photos. Mettez une photo par montre dans le dossier, le cadran bien visible. HoroCMS lit les photos JPEG, PNG et WebP, et les photos HEIC d’iPhone sur un Mac; sous Windows, exportez d’abord les photos HEIC en JPEG. Jusqu’à 200 photos à la fois.
+
+Choisissez Identifier avec l’IA : Claude examine chaque photo, lit le cadran et cherche sur le Web pour confirmer la référence. Chaque ligne montre alors ce qu’il a trouvé et son degré de certitude. Corrigez la marque, le modèle ou la référence au besoin, décochez les photos dont vous ne voulez pas et choisissez Ajouter. Si vous changez l’identification, les détails trouvés par l’IA pour cette montre ne sont pas enregistrés. Sans l’assistant d’aide, vous pouvez quand même inscrire chaque montre vous-même.
+
+Chaque montre ajoutée ainsi reçoit sa photo et est marquée IA · à vérifier, dans la collection, sur la montre et dans À surveiller de la vue d’ensemble. Ouvrez-la, vérifiez ses détails et ses caractéristiques sur la montre et ses papiers, puis choisissez J’ai vérifié : marquer comme vérifiée. Le filtre Seulement les montres identifiées par l’IA à vérifier affiche celles qui restent. Les montres remplies par Rechercher avec l’IA sont marquées de la même façon.
+
+Chaque photo est envoyée à Anthropic en copie réduite, sans sa localisation ni ses autres métadonnées, avec son nom de fichier, au moyen de votre propre clé; rien d’autre de votre collection. Chacune coûte quelques cents.
 
 ## Valeurs et devises
 

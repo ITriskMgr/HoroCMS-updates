@@ -1,6 +1,6 @@
 # HoroCMS — Installation guide
 
-*Beta 0.2.3*
+*Beta 0.2.4*
 
 How to install HoroCMS on a Mac or a Windows PC and the companion on a phone, set it up, update it, move it to another computer and remove it.
 

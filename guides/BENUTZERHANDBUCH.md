@@ -1,6 +1,6 @@
 # HoroCMS — Benutzerhandbuch
 
-*Beta 0.2.3*
+*Beta 0.2.4*
 
 HoroCMS ist ein privates, verschlüsseltes Register für eine Sammlung hochwertiger Uhren. Dieses Handbuch folgt dem Hilfe-Bildschirm der App (Menü › Hilfe), wo ein Assistent auch den passenden Abschnitt zu einer Frage finden kann.
 
@@ -33,6 +33,7 @@ HoroCMS ist ein privates, verschlüsseltes Register für eine Sammlung hochwerti
   - [Eine Uhr mit WatchBase prüfen](#eine-uhr-mit-watchbase-prufen)
   - [Lieferumfang: Box, Papiere und Extras](#lieferumfang-box-papiere-und-extras)
   - [Eine neue Uhr mit KI recherchieren](#eine-neue-uhr-mit-ki-recherchieren)
+  - [Viele Uhren aus Fotos hinzufügen](#viele-uhren-aus-fotos-hinzufugen)
 - **Werte und Währungen**
   - [Den Kauf erfassen](#den-kauf-erfassen)
   - [Bewertungen](#bewertungen)
@@ -273,6 +274,16 @@ Wenn Sie eine Uhr hinzufügen, kann Mit KI recherchieren oben im Formular sie f�
 Wählen Sie Formular ausfüllen, um das Gefundene zu übernehmen: Marke, Kollektion, Modell, Referenz, Werk, Kaliber, Durchmesser, offizielle Seite und Zifferblatt sowie alle weiteren bestätigten technischen Daten, die mit der Uhr im Reiter Technische Daten gespeichert werden. Prüfen Sie alles an der Uhr und ihren Papieren, bevor Sie speichern: KI kann sich irren, daher sind diese Angaben in der Datenqualität als KI-Recherche, ungeprüft, gekennzeichnet. Wurde die Uhr nicht sicher identifiziert, wählen Sie einen der anderen Treffer, um ihn zu recherchieren.
 
 Die Funktion nutzt den Hilfe-Assistenten mit Ihrem eigenen Anthropic-Schlüssel: Schalten Sie ihn unter Einstellungen › Hilfe-Assistent ein. Gesendet werden nur die Wörter, die Sie zu dieser Uhr eingeben, nie etwas anderes aus Ihrer Sammlung. Jede Recherche nutzt bis zu fünf Websuchen, die Anthropic Ihrem Konto berechnet (einige Cent).
+
+### Viele Uhren aus Fotos hinzufügen
+
+Wählen Sie in der Sammlung Aus Fotos hinzufügen und dann Fotoordner wählen. Legen Sie ein Foto pro Uhr in den Ordner, das Zifferblatt gut sichtbar. HoroCMS liest JPEG-, PNG- und WebP-Fotos sowie iPhone-HEIC-Fotos auf einem Mac; unter Windows exportieren Sie HEIC-Fotos zuerst als JPEG. Bis zu 200 Fotos auf einmal.
+
+Wählen Sie Mit KI identifizieren: Claude sieht sich jedes Foto an, liest das Zifferblatt und sucht im Web, um die Referenz zu bestätigen. Jede Zeile zeigt dann, was gefunden wurde und wie sicher es ist. Korrigieren Sie bei Bedarf Marke, Modell oder Referenz, entfernen Sie die Häkchen bei unerwünschten Fotos und wählen Sie Hinzufügen. Ändern Sie die Identifikation, werden die von der KI gefundenen Angaben für diese Uhr nicht gespeichert. Ohne den Hilfe-Assistenten können Sie jede Uhr selbst eingeben.
+
+Jede so hinzugefügte Uhr erhält ihr Foto und ist als KI · zu prüfen markiert, in der Sammlung, bei der Uhr und unter Erfordert Aufmerksamkeit in der Übersicht. Öffnen Sie sie, prüfen Sie Angaben und technische Daten an der Uhr und ihren Papieren und wählen Sie Geprüft: als geprüft markieren. Der Filter Nur von KI identifizierte Uhren zum Prüfen zeigt die verbleibenden. Mit Mit KI recherchieren ausgefüllte Uhren werden ebenso markiert.
+
+Jedes Foto wird als verkleinerte Kopie ohne Standort und andere Metadaten, mit seinem Dateinamen, mit Ihrem eigenen Schlüssel an Anthropic gesendet; sonst nichts aus Ihrer Sammlung. Jedes kostet einige Cent.
 
 ## Werte und Währungen
 

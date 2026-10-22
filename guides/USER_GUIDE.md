@@ -1,6 +1,6 @@
 # HoroCMS — User guide
 
-*Beta 0.2.3*
+*Beta 0.2.4*
 
 HoroCMS is a private, encrypted register for a fine-watch collection. This guide follows the app's own Help screen (menu › Help), where an assistant can also find the right section for a question.
 
@@ -33,6 +33,7 @@ HoroCMS is a private, encrypted register for a fine-watch collection. This guide
   - [Checking a watch with WatchBase](#checking-a-watch-with-watchbase)
   - [What’s included: box, papers and extras](#whats-included-box-papers-and-extras)
   - [Researching a new watch with AI](#researching-a-new-watch-with-ai)
+  - [Adding many watches from photos](#adding-many-watches-from-photos)
 - **Values and currencies**
   - [Recording the purchase](#recording-the-purchase)
   - [Valuations](#valuations)
@@ -273,6 +274,16 @@ When you add a watch, Research with AI at the top of the form can identify it fo
 Choose Fill the form to use what was found: brand, collection, model, reference, movement, calibre, diameter, official page and dial, and every other specification it could confirm, which is saved in the Specifications tab with the watch. Check everything against the watch and its papers before saving: AI can be wrong, so these details are marked AI research, unverified, in Data quality. If the watch was not identified with confidence, choose one of the other matches to research it.
 
 It uses the Help assistant with your own Anthropic key: turn it on in Settings › Help assistant. Only the words you typed about this watch are sent, never anything else from your collection. Each research uses up to five web searches, billed by Anthropic to your account (a few cents).
+
+### Adding many watches from photos
+
+In Collection, choose Add from photos, then Choose a folder of photos. Put one photo per watch in the folder, with the dial clearly visible. HoroCMS reads JPEG, PNG and WebP photos, and iPhone HEIC photos on a Mac; on Windows, export HEIC photos as JPEG first. Up to 200 photos at a time.
+
+Choose Identify with AI: Claude looks at each photo, reads the dial and searches the web to confirm the reference. Each row then shows what it found and how sure it is. Correct the brand, model or reference where needed, untick the photos you do not want, and choose Add. If you change the identification, the details the AI found for that watch are not saved. Without the Help assistant, you can still type each watch yourself.
+
+Every watch added this way gets its photo and is marked AI · to verify, in the collection, on the watch and in the overview’s Needs attention. Open it, check its details and specifications against the watch and its papers, then choose I checked: mark as verified. The filter Only AI-identified watches to verify lists the ones left. Watches filled in by Research with AI are marked the same way.
+
+Each photo is sent to Anthropic as a reduced copy without its location or other metadata, with its file name, using your own key; nothing else from your collection. Each costs a few cents.
 
 ## Values and currencies
 
